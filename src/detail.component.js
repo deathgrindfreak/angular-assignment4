@@ -3,7 +3,7 @@
 
     angular.module('MenuApp')
         .component('categoryDetail', {
-            templateUrl: '../templates/category-detail.html',
+            templateUrl: 'templates/category-detail.html',
             bindings: {
                 details: '<',
                 shortName: '@'
