@@ -1,0 +1,32 @@
+h1 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+h2.crumb {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+h2#home-link {
+  text-align: center;
+}
+body {
+    margin: 0 auto;
+}
+.container {
+    width: 600px;
+}
+#results {
+    clear: both;
+}
+.short-name, .price-small, .price-large {
+    width: 100px;
+}
+.results-row {
+    height: 60px;
+}
+.remove-button {
+    width: 200px;
+}
+th, td {
+    padding: 5px;
+}

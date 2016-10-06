@@ -1,0 +1,15 @@
+<h2 class="crumb"><a ui-sref="home">Home</a> > Categories</h2>
+<table ng-hide="$ctrl.cats.length == 0">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Short Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="results-row" ng-repeat="cat in $ctrl.cats">
+            <td>{{ cat.name }}</td>
+            <td class="short-name"><a ui-sref="categoryDetail({cat: cat.short_name})">{{ cat.short_name }}</a></td>
+        </tr>
+    </tbody>
+</table>
